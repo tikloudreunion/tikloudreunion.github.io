@@ -87,14 +87,14 @@ const Footer: React.FC = () => {
               <div className="flex items-start gap-3">
                 <Map className="h-5 w-5 text-gray-400 mt-1" />
                 <div className="text-gray-400">
-                  Epitech La Réunion<br />
+                  Epitech Réunion<br />
                   184 Chemin Pente Sassy<br />
                   Saint-André, 97440
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-gray-400 mt-1" />
-                <a href="mailto:contact@tikloud.re" className="text-gray-400 hover:text-white transition-colors">
+                <a href="mailto:clement-antoine.xavier@epitech.eu" className="text-gray-400 hover:text-white transition-colors">
                   clement-antoine.xavier@epitech.eu
                 </a>
               </div>

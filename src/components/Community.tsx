@@ -55,7 +55,7 @@ const Community: React.FC = () => {
 
             <div className="mt-8">
               <a 
-                href="#" 
+                href="https://github.com/tikloudreunion" 
                 className="btn btn-primary inline-flex items-center"
               >
                 <Github className="mr-2 h-5 w-5" />
@@ -73,29 +73,8 @@ const Community: React.FC = () => {
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-white p-4 rounded-lg shadow-sm flex flex-col items-center justify-center">
                 <div className="text-center">
-                  <div className="font-bold">University of Réunion</div>
+                  <div className="font-bold">Epitech Réunion</div>
                   <div className="text-sm text-gray-500">Academic Partner</div>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded-lg shadow-sm flex flex-col items-center justify-center">
-                <div className="text-center">
-                  <div className="font-bold">Digital Réunion</div>
-                  <div className="text-sm text-gray-500">Industry Partner</div>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded-lg shadow-sm flex flex-col items-center justify-center">
-                <div className="text-center">
-                  <div className="font-bold">TCRM</div>
-                  <div className="text-sm text-gray-500">Infrastructure Partner</div>
-                </div>
-              </div>
-
-              <div className="bg-white p-4 rounded-lg shadow-sm flex flex-col items-center justify-center">
-                <div className="text-center">
-                  <div className="font-bold">Open Cloud Foundation</div>
-                  <div className="text-sm text-gray-500">Technology Partner</div>
                 </div>
               </div>
             </div>
