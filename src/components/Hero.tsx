@@ -40,13 +40,10 @@ const Hero: React.FC = () => {
               and developing projects in a privacy-respecting environment.
             </p>
             <div className="flex flex-wrap gap-4">
-              <button className="btn btn-primary bg-white text-blue-700 hover:bg-blue-50">
+              <a href="https://github.com/tikloudreunion" className="btn btn-primary bg-white text-blue-700 hover:bg-blue-50">
                 Get Started
                 <ChevronRight className="ml-2 h-5 w-5 inline" />
-              </button>
-              <button className="btn btn-secondary bg-transparent border-white text-white hover:bg-blue-800">
-                Learn More
-              </button>
+              </a>
             </div>
           </div>
           <div className="md:w-1/2 flex justify-center md:justify-end animate-fade-in">
