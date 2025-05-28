@@ -45,8 +45,6 @@ const Navbar: React.FC = () => {
           <NavLink href="#community" isScrolled={isScrolled}>Community</NavLink>
         </div>
 
-        <button className="hidden md:block btn btn-primary">Get Started</button>
-
         {/* Mobile menu button */}
         <button 
           className="md:hidden"
@@ -70,7 +68,6 @@ const Navbar: React.FC = () => {
             <MobileNavLink href="#security" onClick={toggleMenu}>Security</MobileNavLink>
             <MobileNavLink href="#roadmap" onClick={toggleMenu}>Roadmap</MobileNavLink>
             <MobileNavLink href="#community" onClick={toggleMenu}>Community</MobileNavLink>
-            <button className="btn btn-primary w-full mt-4">Get Started</button>
           </div>
         </div>
       )}
